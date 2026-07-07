@@ -1,3 +1,5 @@
+<img width="665" height="548" alt="Screenshot 2026-07-07 163617" src="https://github.com/user-attachments/assets/ead8b9e2-94f2-408d-9954-cd2502329784" />
+<img width="665" height="548" alt="Screenshot 2026-07-07 163617" src="https://github.com/user-attachments/assets/445cc5ae-5a25-4a49-a1b5-f41972ecd202" />
 # ⚡ Voltstrip V2.0
 
 > A custom, open-source 4-key mechanical macropad with an OLED display, rotary encoder, and RGB underglow. Powered by the Seeed Studio XIAO RP2040.
@@ -24,7 +26,7 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 
 ### 🖼️ Overall Design (3D Render)
 *Multi-angle views of the fully assembled macropad featuring the layout, screen placement, and custom branding.*
-
+<img width="1242" height="986" alt="Screenshot 2026-07-07 163548" src="https://github.com/user-attachments/assets/fc6d45b2-2568-4ee3-97dc-606b65dadd59" />
 <img width="1474" height="922" alt="overall" src="https://github.com/user-attachments/assets/40f9471f-3727-4305-952a-c7d03e10050b" /> <img width="1251" height="1072" alt="overall2" src="https://github.com/user-attachments/assets/68fd9c1a-a712-4d66-9e8f-4966a4a3cdbf" />
 
 
@@ -48,7 +50,7 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 
 <img width="1348" height="923" alt="case_back png" src="https://github.com/user-attachments/assets/9873c57d-b74f-40ff-9747-f4880f2a70fe" />
 <img width="1598" height="949" alt="case_front png" src="https://github.com/user-attachments/assets/9d51f420-9da7-43ed-a052-6dca820a5bc4" />
-
+<img width="665" height="548" alt="Screenshot 2026-07-07 163617" src="https://github.com/user-attachments/assets/5abea24c-9214-47fd-8a25-a62aed7aafcf" />
 
 
 ---
