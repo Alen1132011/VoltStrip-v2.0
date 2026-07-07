@@ -32,21 +32,21 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 ### 🔌 Schematic Diagram
 *Clean and fully routed electronics schema matching the RP2040 GPIO pin configurations.*
 <p align="center">
-  <img src="images/schematic.png" alt="Schematic" width="600">
+  <img src="images/schematic.png.png" alt="Schematic" width="600">
 </p>
 
 ### 🎛️ PCB Layout
 *Front and back views of the double-sided PCB layout with tight routing, custom ground planes, and silkscreen artwork.*
 <p align="center">
-  <img src="images/pcb.png" alt="PCB Layout Top" width="48%" />
-  <img src="images/pcb2.png" alt="PCB Layout Bottom" width="48%" />
+  <img src="images/pcb.png.png" alt="PCB Layout Top" width="48%" />
+  <img src="images/pcb2.png.png" alt="PCB Layout Bottom" width="48%" />
 </p>
 
 ### 📦 Enclosure & Case Fit
 *The custom-designed 3D printed mechanical shell. Front and back side-by-side comparison showing perfect tolerances.*
 <p align="center">
-  <img src="images/case_front.png" alt="Case Front View" width="48%" />
-  <img src="images/case_back.png" alt="Case Back View" width="48%" />
+  <img src="images/case_front.png.png" alt="Case Front View" width="48%" />
+  <img src="images/case_back.png.png" alt="Case Back View" width="48%" />
 </p>
 
 ---
