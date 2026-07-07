@@ -25,25 +25,35 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 ### 🖼️ Overall Design (3D Render)
 *The fully assembled macropad view featuring the layout, screen placement, and custom branding.*
 <p align="center">
-  <img src="images/3d_viewer_render.png" alt="Overall Hackpad" width="600">
+  <img src="images/overall.png" alt="Overall Hackpad" width="600">
+</p>
+<p align="center">
+  <img src="images/overall2.png" alt="Overall Hackpad" width="600">
 </p>
 
 ### 🔌 Schematic Diagram
 *Clean and fully routed electronics schema matching the RP2040 GPIO pin configurations.*
 <p align="center">
-  <img src="images/schematic_screenshot.png" alt="Schematic" width="600">
+  <img src="images/schematic.png" alt="Schematic" width="600">
 </p>
 
 ### 🎛️ PCB Layout
 *Double-sided PCB layout with tight routing, custom ground planes, and silkscreen artwork.*
 <p align="center">
-  <img src="images/pcb_screenshot.png" alt="PCB Layout" width="600">
+  <img src="images/pcb.png" alt="PCB Layout" width="600">
+</p>
+<p align="center">
+  <img src="images/pcb2.png" alt="PCB Layout" width="600">
 </p>
 
 ### 📦 Enclosure & Case Fit
 *The custom-designed 3D printed mechanical shell. Perfect tolerances for the switches and the OLED cutout.*
 <p align="center">
-  <img src="images/case_fusion360.png" alt="Case Design" width="600">
+  <img src="images/case_front.png" alt="Case Front View" width="600">
+</p>
+
+<p align="center">
+  <img src="images/case_back.png" alt="Case Back View" width="600">
 </p>
 
 ---
