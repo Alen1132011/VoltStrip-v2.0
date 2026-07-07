@@ -39,7 +39,7 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 *Front and back views of the double-sided PCB layout with tight routing, custom ground planes, and silkscreen artwork.*
 <p align="center">
   <img src="images/pcb.png.png" alt="PCB Layout Top" width="48%" />
-  <img src="images/pcb2.png.png" alt="PCB Layout Bottom" width="48%" />
+  <img src="images/pcb1.png.png" alt="PCB Layout Bottom" width="48%" />
 </p>
 
 ### 📦 Enclosure & Case Fit
