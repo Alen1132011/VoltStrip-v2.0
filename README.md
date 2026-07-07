@@ -25,7 +25,9 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 ### 🖼️ Overall Design (3D Render)
 *Multi-angle views of the fully assembled macropad featuring the layout, screen placement, and custom branding.*
 
-![Overall View 1](images/overall.png) ![Overall View 2](images/overall2.png)
+<img width="1474" height="922" alt="overall" src="https://github.com/user-attachments/assets/40f9471f-3727-4305-952a-c7d03e10050b" /> <img width="1251" height="1072" alt="overall2" src="https://github.com/user-attachments/assets/68fd9c1a-a712-4d66-9e8f-4966a4a3cdbf" />
+
+
 
 ### 🔌 Schematic Diagram
 *Clean and fully routed electronics schema matching the RP2040 GPIO pin configurations.*
