@@ -24,30 +24,23 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 
 ### 🖼️ Overall Design (3D Render)
 *Multi-angle views of the fully assembled macropad featuring the layout, screen placement, and custom branding.*
-<p align="center">
-  <img src="images/overall.png" alt="Overall Hackpad View 1" width="48%" />
-  <img src="images/overall2.png" alt="Overall Hackpad View 2" width="48%" />
-</p>
+
+![Overall View 1](images/overall.png) ![Overall View 2](images/overall2.png)
 
 ### 🔌 Schematic Diagram
 *Clean and fully routed electronics schema matching the RP2040 GPIO pin configurations.*
-<p align="center">
-  <img src="images/schematic.png.png" alt="Schematic" width="600">
-</p>
+
+![Schematic](images/schematic.png.png)
 
 ### 🎛️ PCB Layout
 *Front and back views of the double-sided PCB layout with tight routing, custom ground planes, and silkscreen artwork.*
-<p align="center">
-  <img src="images/pcb.png.png" alt="PCB Layout Top" width="48%" />
-  <img src="images/pcb1.png.png" alt="PCB Layout Bottom" width="48%" />
-</p>
+
+![PCB Layout Top](images/pcb.png.png) ![PCB Layout Bottom](images/pcb1.png.png)
 
 ### 📦 Enclosure & Case Fit
 *The custom-designed 3D printed mechanical shell. Front and back side-by-side comparison showing perfect tolerances.*
-<p align="center">
-  <img src="images/case_front.png.png" alt="Case Front View" width="48%" />
-  <img src="images/case_back.png.png" alt="Case Back View" width="48%" />
-</p>
+
+![Case Front View](images/case_front.png.png) ![Case Back View](images/case_back.png.png)
 
 ---
 
