@@ -32,17 +32,24 @@ Here is the complete breakdown of the design phases, from the initial schematic 
 ### 🔌 Schematic Diagram
 *Clean and fully routed electronics schema matching the RP2040 GPIO pin configurations.*
 
-![Schematic](images/schematic.png.png)
+<img width="1842" height="1244" alt="schematic png" src="https://github.com/user-attachments/assets/ee1da1b5-60bf-4ab4-b8b9-75f8913c9e1a" />
+
+
 
 ### 🎛️ PCB Layout
 *Front and back views of the double-sided PCB layout with tight routing, custom ground planes, and silkscreen artwork.*
+<img width="1391" height="1172" alt="pcb1 png" src="https://github.com/user-attachments/assets/60583f3a-027e-4a6e-b58d-d8453f2636e4" />
+<img width="1352" height="1159" alt="pcb png" src="https://github.com/user-attachments/assets/f59bdd34-9f55-4715-ab20-cc8a960cc85d" />
 
-![PCB Layout Top](images/pcb.png.png) ![PCB Layout Bottom](images/pcb1.png.png)
+
 
 ### 📦 Enclosure & Case Fit
 *The custom-designed 3D printed mechanical shell. Front and back side-by-side comparison showing perfect tolerances.*
 
-![Case Front View](images/case_front.png.png) ![Case Back View](images/case_back.png.png)
+<img width="1348" height="923" alt="case_back png" src="https://github.com/user-attachments/assets/9873c57d-b74f-40ff-9747-f4880f2a70fe" />
+<img width="1598" height="949" alt="case_front png" src="https://github.com/user-attachments/assets/9d51f420-9da7-43ed-a052-6dca820a5bc4" />
+
+
 
 ---
 
