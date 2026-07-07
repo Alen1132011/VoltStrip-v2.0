@@ -1,0 +1,52 @@
+{
+    "keyboard_name": "Voltstrip",
+    "manufacturer": "Voltstrip",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "features": {
+        "encoder": true,
+        "rgblight": true,
+        "oled": true
+    },
+    "matrix_pins": {
+        "cols": ["GP27", "GP26", "GP4"],
+        "rows": ["GP29", "GP28"]
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP2", "pin_b": "GP1" }
+        ]
+    },
+    "rgblight": {
+        "pin": "GP3",
+        "led_count": 2,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true
+        }
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP3"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1}
+            ]
+        }
+    }
+}
