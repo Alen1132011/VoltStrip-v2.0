@@ -21,6 +21,9 @@ Built and submitted as part of the Hack Club Stardance program.
 
 Here is the complete project breakdown, moving from the initial electrical routing up to the final 3D-printed enclosure.
 
+Spin it in 3D!
+>  **[CLICK HERE TO VIEW THE PCB IN YOUR BROWSER via KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FAlen1132011%2FVoltStrip-v2.0%2Ftree%2Fmain%2FPCB)**
+
 ### Layout & Concept
 The overall alignment of the keys, encoder, and display panel on the top plate.
 
