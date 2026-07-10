@@ -1,86 +1,79 @@
 # Voltstrip V2.0
 
-A pocket-sized, open-source 4-key mechanical macropad with an OLED screen, a rotary encoder, and addressable RGB underglow.
+A casual, open-source 4-key mechanical macropad featuring an OLED display, a rotary encoder, and clean RGB underglow. Powered by the Seeed Studio XIAO RP2040 and running on QMK/Vial firmware so you can remap everything on the fly without breaking a sweat.
+
+Built and submitted as part of the Hack Club Stardance program.
 
 ---
 
-<!-- 2. HERO IMAGE -->
-<p align="center">
-  <img width="600" alt="Voltstrip V2.0 Hero Render" src="https://github.com/user-attachments/assets/fc6d45b2-2568-4ee3-97dc-606b65dadd59" />
-</p>
+## What's Under the Hood?
+
+* **The Controller:** Seeed Studio XIAO RP2040—super compact, fast, and budget-friendly.
+* **The Keys:** 4 mechanical switches (Cherry MX compatible), meaning you can swap in whatever linears, tactiles, or clickies you prefer.
+* **The Dial:** 1x EC11 rotary encoder with a built-in push button, ideal for adjusting volume, scrolling timelines, or brush sizing.
+* **The Screen:** A crisp 0.91" I2C OLED display (128x32 resolution) to show off active layers, custom graphics, or profile states.
+* **The Glow:** 1x addressable WS2812B RGB LED tucked underneath to give your desk that perfect ambient underglow.
+* **The Software:** Fully compatible with QMK and Vial for painless, real-time layout configurations.
 
 ---
 
-## 🚀 Spin it in 3D!
-> 💡 **[CLICK HERE TO VIEW THE PCB IN YOUR BROWSER via KiCanvas](https://kicanvas.org/)** *(Swap this with your actual KiCanvas link once you generate it!)*
+## Design & Gallery
 
----
+Here is the complete project breakdown, moving from the initial electrical routing up to the final 3D-printed enclosure.
 
-## ⚡ Quick Start
-Since the physical boards are still at the factory, you can't plug one in just yet. In the meantime, you can explore the source files directly across the repository folders:
-1. Look inside the `/PCB` and `/Cad` folders for the full KiCad schematics, layouts, and 3D case designs.
-2. Check out the `/Firmware` folder to grab or modify the QMK/Vial configuration files.
-3. Production-ready manufacturing files (Gerbers) can be found in the `/Production` folder.
+### Layout & Concept
+The overall alignment of the keys, encoder, and display panel on the top plate.
 
----
-
-## ✨ Features
-* **The Brains:** Powered by a Seeed Studio XIAO RP2040—compact, dual-core, and highly budget-friendly.
-* **The Keys:** 4 standard Cherry MX-compatible slots. Pop in whatever linears, tactiles, or clickies you prefer.
-* **The Encoder:** 1x EC11 rotary encoder with a built-in push button for volume control, scrolling, or timeline scrubbing.
-* **Display:** A 0.91" I2C OLED screen (128x32) to track active layers, profiles, or custom animations.
-* **Underglow:** 1x addressable WS2812B RGB LED mounted on the bottom for ambient desktop lighting.
-* **Firmware:** Full QMK and Vial compatibility. Remap keys instantly in the Vial GUI without touching a single line of code.
-
----
-
-## 🛠️ The Shopping List (BOM)
-
-| Component | Qty | Description | Notes |
-| :--- | :---: | :--- | :--- |
-| **Seeed Studio XIAO RP2040** | 1 | Microcontroller Board | SMT Module / Direct Solder |
-| **Cherry MX Compatible Switches** | 4 | Mechanical Key Switches | Use your preferred switches |
-| **EC11 Rotary Encoder** | 1 | Volume & Navigation | THT style with integrated switch |
-| **0.91" OLED Display** | 1 | 128x32 I2C Screen | Plugs right into a 4-pin header |
-| **1N4148 Diode** | 4 | Matrix Diodes | DO-35 THT package |
-| **WS2812B RGB LED** | 1 | Underglow LED | 5050 package |
-| **Custom Case** | 1 | 3D Printed Top & Bottom Shell | STL files ready for 0.20mm printing |
-
----
-
-## 💻 Hardware Layout & Blueprint
-
-### Case & Board Design
-Here is a breakdown of how the traces route everything cleanly back to the XIAO's GPIO pins, along with the custom case fitment:
-
+<img width="1242" height="986" alt="Voltstrip Top View" src="https://github.com/user-attachments/assets/fc6d45b2-2568-4ee3-97dc-606b65dadd59" />
 <img width="1474" height="922" alt="Overall Angle 1" src="https://github.com/user-attachments/assets/40f9471f-3727-4305-952a-c7d03e10050b" /> 
 <img width="1251" height="1072" alt="Overall Angle 2" src="https://github.com/user-attachments/assets/68fd9c1a-a712-4d66-9e8f-4966a4a3cdbf" />
 
+### Schematic Diagram
+A clean, straightforward schematic showing how all components route back to the XIAO's GPIO pins.
+
 <img width="1842" height="1244" alt="Schematic Diagram" src="https://github.com/user-attachments/assets/ee1da1b5-60bf-4ab4-b8b9-75f8913c9e1a" />
+
+### PCB Layout
+Double-sided PCB design with optimized traces, dedicated ground planes, and custom silkscreen art on the back.
 
 <img width="1391" height="1172" alt="PCB Front" src="https://github.com/user-attachments/assets/60583f3a-027e-4a6e-b58d-d8453f2636e4" />
 <img width="1352" height="1159" alt="PCB Back" src="https://github.com/user-attachments/assets/f59bdd34-9f55-4715-ab20-cc8a960cc85d" />
+<img width="665" height="548" alt="Routing Close-up" src="https://github.com/user-attachments/assets/5abea24c-9214-47fd-8a25-a62aed7aafcf" />
+
+### Enclosure & Fit
+The custom-designed 3D-printed shell. Tolerances are dialed in to ensure a perfectly flush fit for both the top plate and bottom shell pieces.
 
 <img width="1348" height="923" alt="Case Back" src="https://github.com/user-attachments/assets/9873c57d-b74f-40ff-9747-f4880f2a70fe" />
 <img width="1598" height="949" alt="Case Front" src="https://github.com/user-attachments/assets/9d51f420-9da7-43ed-a052-6dca820a5bc4" />
 
-### Pin Mapping
-* **Rows:** `GP29`, `GP28`
-* **Columns:** `GP27`, `GP26`, `GP4`
-* **Rotary Encoder:** `GP2`, `GP1`
-* **RGB Data:** `GP3`
+---
+
+## Bill of Materials (BOM)
+
+| Component | Qty | Description | Notes |
+| :--- | :---: | :--- | :--- |
+| **Seeed Studio XIAO RP2040** | 1 | Microcontroller Board | SMT Module / Direct Solder |
+| **Cherry MX Compatible Switches** | 4 | Mechanical Key Switches | 3-pin or 5-pin plate mount |
+| **EC11 Rotary Encoder** | 1 | Navigation & Volume Control | Through-Hole (THT) with push button |
+| **0.91" OLED Display** | 1 | 128x32 I2C Screen | Connects via 4-pin header |
+| **1N4148 Diode** | 4 | Matrix Diodes | DO-35 THT or equivalent SMD |
+| **WS2812B RGB LED** | 1 | Addressable Underglow LED | 5050 / PLCC-4 package |
+| **Custom Case** | 1 | 3D Printed Top & Bottom Shell | PLA or PETG (printed at 0.20mm) |
 
 ---
 
-## 🧠 How It Works & Technical Choices
-Instead of burning through the limited GPIO pins on the tiny Seeed Studio XIAO RP2040 with a basic 1-to-1 setup, Voltstrip V2.0 uses a **keyboard matrix combined with 1N4148 switching diodes**. This prevents "ghosting" (where the controller gets confused if you smash multiple keys at once) and keeps plenty of pins free for the OLED screen, encoder, and addressable RGB data.
+## Hardware Configuration & Pin Map
 
-On the software side, going with **Vial-QMK** was a no-brainer. It allocates a small chunk of the RP2040's EEPROM so you can rebind keys, set up macros, and switch profiles instantly using the GUI app, completely bypassing the annoying process of rebuilding and re-flashing raw C code every time you want to tweak a shortcut.
+If you're modifying the code or setting up your own layout config, here is exactly where everything plugs into the RP2040:
+
+* **Rows:** `GP29` (D3), `GP28` (D2)
+* **Columns:** `GP27` (D1), `GP26` (D0), `GP4` (D9)
+* **Rotary Encoder:** `GP2` (D8), `GP1` (D7)
+* **RGB Data:** `GP3` (D10)
+* **I2C Display (OLED):** Standard RP2040 SDA & SCL pins
 
 ---
 
-## 🤝 Credits & License
-* Big thanks to the **Hack Club Stardance** crew for backing open-source hardware makers.
-* Standing on the shoulders of giants in the **QMK** and **Vial** communities.
+## License
 
-This project is open-source under the MIT License. Go ahead, clone it, remix it, or break it to build something even cooler!
+This project is fully open-source. Feel free to grab the files, remix the layout, spin up your own PCBs, or tweak the shell to make it your own!
